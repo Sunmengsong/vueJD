@@ -8,6 +8,7 @@ import "element-ui/lib/theme-chalk/index.css";
 
 import echarts from "echarts";
 Vue.prototype.$echarts = echarts;
+Vue.prototype.$store = store;
 
 Vue.use(ElementUI);
 // 输入框只能输入数字  v-enter-number

@@ -7,5 +7,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+  beforeMount() {
+    console.log(this);
+  }
+};
 </script>
