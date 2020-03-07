@@ -21,3 +21,8 @@ a:hover {
 ul {
   list-style: none;
 }
+
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
